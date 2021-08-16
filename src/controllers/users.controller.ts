@@ -1,7 +1,7 @@
 import BaseController from "./base-controller";
 import {UsersRepository} from "../repositories/users/users-repository.interface";
 
-class UsersController extends BaseController<User> {
+export class UsersController extends BaseController<User> {
     constructor(private usersRepository: UsersRepository) {
         super(usersRepository);
     }

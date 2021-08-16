@@ -2,6 +2,7 @@
     "compilerOptions": {
         "module": "commonJs",
         "esModuleInterop": true,
+        "strictPropertyInitialization": false,
         "allowSyntheticDefaultImports": true,
         "target": "es6",
         "noImplicitAny": true,
