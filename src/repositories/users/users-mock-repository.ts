@@ -1,5 +1,6 @@
 import {UsersRepository} from "./users-repository.interface";
 import {nanoid} from "nanoid";
+import {User} from "../../interfaces/user.interface";
 
 export class UsersMockRepository implements UsersRepository{
     private users: Array<User> = [];
